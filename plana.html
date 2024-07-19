@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="plana.css">
+    <title>Plan A</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Plan <span>A</span></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#flights">Flights</a></li>
+                <li><a href="#hotels">Hotels</a></li>
+                <li><a href="#packages">Holiday Packages</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h2>Explore the World with Us</h2>
+            <p>Find the best deals on flights, hotels, and holiday packages.</p>
+        </section>
+
+        <section id="flights" class="section">
+            <h2>Book Flights</h2>
+            <form>
+                <label for="from">From:</label>
+                <input type="text" id="from" name="from" placeholder="City or Airport">
+                <label for="to">To:</label>
+                <input type="text" id="to" name="to" placeholder="City or Airport">
+                <label for="departure">Departure:</label>
+                <input type="date" id="departure" name="departure">
+                <label for="return">Return:</label>
+                <input type="date" id="return" name="return">
+                <button type="submit">Search Flights</button>
+            </form>
+        </section>
+
+        <section id="hotels" class="section">
+            <h2>Book Hotels</h2>
+            <form>
+                <label for="destination">Destination:</label>
+                <input type="text" id="destination" name="destination" placeholder="City or Hotel">
+                <label for="checkin">Check-in:</label>
+                <input type="date" id="checkin" name="checkin">
+                <label for="checkout">Check-out:</label>
+                <input type="date" id="checkout" name="checkout">
+                <button type="submit">Search Hotels</button>
+            </form>
+        </section>
+
+        <section id="packages" class="section">
+            <h2>Holiday Packages</h2>
+            <div class="package">
+                <img src="goa new.jpg" alt="Beach Paradise">
+                <h3>Beach Paradise</h3>
+                <p>Enjoy a 7-day beach holiday at a tropical paradise.</p>
+                <button>Explore</button>
+            </div>
+            <div class="package">
+                <img src="ladakh.jpg" alt="Mountain Adventure">
+                <h3>Mountain Adventure</h3>
+                <p>Experience a thrilling 5-day mountain adventure.</p>
+                <button>Explore</button>
+            </div>
+            <div class="package">
+                <img src="mumbai.jpg" alt="City Excursion">
+                <h3>City Excursion</h3>
+                <p>Explore the vibrant city life with our 3-day city tour.</p>
+                <button>Explore</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="icons">
+                <a href="https://www.instagram.com/sshub.hamm/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.facebook.com/riot.hashtag"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://x.ai/"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://myaccount.google.com/profile"><i class="fa-brands fa-google-plus"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

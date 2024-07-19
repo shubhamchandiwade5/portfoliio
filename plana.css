@@ -1,0 +1,160 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+header {
+    background-color: #333;
+    color: #80b918;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px
+}
+
+.logo h1 {
+    margin: 0;
+    color: #55a630;
+}
+.logo h1:hover{
+    color: white;
+    cursor: pointer;
+}
+span{
+    color: #55a630;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: #55a630;
+}
+
+main {
+    padding: 20px;
+}
+
+#hero {
+    background-image: url('images/hero.jpg');
+    background-size:contain;
+    background-position:center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#hero h2 {
+    font-size: 3em;
+    margin: 0;
+    color: #55a630;
+}
+
+#hero p {
+    font-size: 1.5em;
+    color: white;
+    margin-top: 10px;
+}
+
+.section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    grid-column: span 1;
+}
+
+form input, form button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    grid-column: span 2;
+    background-color: #80b918;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #80b918;
+}
+
+.package {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.package img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+}
+
+.package h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.package p {
+    margin: 10px 0;
+}
+
+.package button {
+    background-color: #80b918;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.package button:hover {
+    background-color: #80b918;
+}
+
